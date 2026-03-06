@@ -1,0 +1,24 @@
+# Environment
+.env
+.env.local
+
+# Raw data (re-fetch with fetch_dune.py)
+data/raw/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Claude
+.claude
